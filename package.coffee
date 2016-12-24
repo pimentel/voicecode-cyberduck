@@ -13,6 +13,8 @@ pack.implement
     @key 'g', 'command'
   'ftp:open-directory': ->
     @key 'down', 'command'
+  'ftp:edit-file': ->
+    @key 'k', 'command'
   'object:refresh': ->
     @key 'r', 'command'
   'command-line:parent-directory': ->
